@@ -1,0 +1,6 @@
+{
+	"COMMAND_TYPE": {
+		"REGISTER": "register",
+		"SEARCH": "search"
+	}
+}

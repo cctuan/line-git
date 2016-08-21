@@ -1,0 +1,243 @@
+{
+  "commit-comment": {
+    "required": [
+      "action",
+      "comment",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "create": {
+    "required": [
+      "ref",
+      "ref_type",
+      "master_branch",
+      "description",
+      "pusher_type",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "delete": {
+    "required": [
+      "ref",
+      "ref_type",
+      "pusher_type",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "deployment": {
+    "required": [
+      "deployment",
+      "id",
+      "sha",
+      "ref",
+      "task",
+      "name",
+      "environment",
+      "payload",
+      "description",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "deployment-status": {
+    "required": [
+      "deployment",
+      "deployment_status",
+      "id",
+      "state",
+      "target_url",
+      "description",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "fork": {
+    "required": [
+      "forkee",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "gollum": {
+    "required": [
+      "pages",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "issue-comment": {
+    "required": [
+      "action",
+      "issue",
+      "comment",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "issues": {
+    "required": [
+      "action",
+      "issue",
+      "label",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "member": {
+    "required": [
+      "action",
+      "member",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "page-build": {
+    "required": [
+      "id",
+      "build",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "public": {
+    "required": [
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "pull-request": {
+    "required": [
+      "action",
+      "number",
+      "pull_request",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "pull-request-review-comment": {
+    "required": [
+      "action",
+      "comment",
+      "pull_request",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "push": {
+    "required": [
+      "ref",
+      "before",
+      "after",
+      "created",
+      "deleted",
+      "forced",
+      "base_ref",
+      "compare",
+      "commits",
+      "head_commit",
+      "repository",
+      "pusher",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "release": {
+    "required": [
+      "action",
+      "release",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "status": {
+    "required": [
+      "id",
+      "sha",
+      "name",
+      "target_url",
+      "context",
+      "description",
+      "state",
+      "commit",
+      "branches",
+      "created_at",
+      "updated_at",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "team-add": {
+    "required": [
+      "team",
+      "repository",
+      "organization",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  },
+  "watch": {
+    "required": [
+      "action",
+      "repository",
+      "sender"
+    ],
+    "optional": [
+      "organization"
+    ]
+  }
+}

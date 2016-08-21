@@ -1,0 +1,6 @@
+{
+  "name": "LINE-meet",
+  "description": "LINE-meet",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}

@@ -1,0 +1,14 @@
+{
+    "default": {
+        "css:tag": "css",
+        "js:tag": "js"
+    },
+    "all": {
+        "css:tag": "css",
+        "img": "img",
+        "js:tag": "js"
+    },
+    "image": {
+        "img": "img"
+    }
+}

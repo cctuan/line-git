@@ -1,0 +1,35 @@
+{
+	"TYPE": {
+		"GROUP": "group",
+		"USER": "user",
+		"WARNNING": "warn",
+		"ERROR": "error"
+	},
+	"MESSAGE": {
+		"CONTENT_TYPE": {
+			"TEXT": 1,
+			"IMAGE": 2,
+			"VIDEO": 3,
+			"AUDIO": 4,
+			"LOCATION": 7,
+			"STICKER": 8,
+			"CONTACT": 10
+		}
+	},
+	"OPERATION": {
+		"TYPE": {
+			"ADDED_FRIEND": 4,
+			"INVITED_GROUP": 5,
+			"INVITED_ROOM": 7,
+			"BLOCKED": 8
+		}
+	},
+	"BROADCAST": {
+		"TYPE": {
+			"RECEIVE_GROUP_TEXT": "receive-group-text",
+			"RECEIVE_USER_TEXT": "receive-user-text",
+			"RECEIVE_USER_ADDED": "receive-user-added",
+			"RECEIVE_INVITED_GROUP": "receive-user-invited"
+		}
+	}
+}

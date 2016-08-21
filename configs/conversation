@@ -1,0 +1,20 @@
+@git watch #branchname
+
+@git register #name #name #name
+
+@git search issues
+@git comments #pr
+@git reply #pr #message
+https://github.com/pksunkara/octonode
+
+
+Events
+ - onPush commits
+ - onComment
+ - onPull
+https://www.npmjs.com/package/github-webhooks
+
+
+need user map to userId
+need userId map to roomId
+need roomId map to userIds

@@ -1,0 +1,16 @@
+{
+	"api_port": 8888,
+  "git_subpath": "github",
+	"web_port": 80,
+	"mongo_url": "",
+  "channelUrl": "https://api.line.me",
+  "channelToken": "",
+  "channelId": "",
+  "eventToChannelId": 1383378250,
+  "linkMessageId": 1341301715,
+  "linkMessageType": "137299299800026303",
+  "messageType": "138311609000106303",
+  "operationType": "138311609100106403",
+  "eventType": "138311608800106203",
+  "channelSecret": ""
+}
